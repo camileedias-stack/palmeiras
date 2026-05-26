@@ -4,7 +4,11 @@
   "description": "",
   "license": "ISC",
   "author": "Camile",
+<<<<<<< HEAD
   "type": "commonjs",
+=======
+  "type": "module",
+>>>>>>> ec2907f80b4f1b2b4e92c11d9aa9d3eebe4f163e
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,7 +17,14 @@
   "dependencies": {
     "ejs": "^5.0.1",
     "express": "^5.2.1",
+<<<<<<< HEAD
     "nodemon": "^3.1.14"
   },
   "type":"module" 
+=======
+    "mysql2": "^3.22.3",
+    "nodemon": "^3.1.14",
+    "sequelize": "^6.37.8"
+  }
+>>>>>>> ec2907f80b4f1b2b4e92c11d9aa9d3eebe4f163e
 }
